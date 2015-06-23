@@ -1,0 +1,115 @@
+body{
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.roomList
+{
+	float:left;
+	width:100px;
+	border-right:1px solid black;
+	height:300px;
+	padding:10px;
+	overflow:scroll-y;
+}
+
+.convoList
+{
+	float:left;
+	width:300px;
+	height:250px;
+	overflow:scroll-y;
+	padding:10px;
+}
+
+.createRoom
+{
+	float:left;
+	width:300px;
+	height:250px;
+	overflow:scroll-y;
+	padding:10px;
+}
+
+#data 
+{
+	width:200px;
+}
+
+#roomname
+{
+	 width:200px;
+}
+#stage {
+	float: right;
+	min-height: 100%;
+	width: 45%;
+	/*border: 1px solid;*/
+}
+input{
+	float: left;
+	margin-left: 13.5%;
+	margin-top: 30%;
+	text-align: center;
+	border-radius: 5px;
+	outline: none;
+
+}
+
+#submit{
+	float: left;
+	margin-left: -7.3%;
+	margin-top: 33%;
+	border-radius: 5px;
+
+}
+
+.grow {
+  display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.grow:hover, .grow:focus, .grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+#word {
+	font-weight: bold;
+	font-size: 30px;
+	letter-spacing: 0.25em;
+	/*border: 1px solid;*/
+	width: 230px;
+	height: 20px;
+	float: left;
+	position: fixed;
+	left: 200px;
+	top:320px;
+	text-align: center;
+}
+
+#badguesses
+{
+	font-weight: bold;
+	font-size: 15px;
+	letter-spacing: 0.25em;
+	/*border: 1px solid;*/
+	width: 290px;
+	height: 50px;
+	float: left;
+	position: fixed;
+	left: 50px;
+	top:620px;
+	text-align: center;
+}
+
+#play
+{
+	float: left;
+	border: 1px solid;
+	border-radius: 5px;
+}
